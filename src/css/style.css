@@ -1,3 +1,7 @@
+.header {
+  background: url(../img/bg.png) center center no-repeat;
+  background-size: cover;
+}
 .header__menu {
   display: inline-block;
   margin-top: 40px;
@@ -27,12 +31,21 @@
   font-size: 30px;
   text-decoration: none;
   text-align: center;
+  color: #fff;
+}
+.header__bell-phone:hover {
+  color: black;
 }
 .header__bell-order {
+  margin-top: -8px;
   display: block;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   text-align: center;
+  color: #fff;
+}
+.header__bell-order:hover {
+  color: black;
 }
 .header__logo {
   margin-top: 50px;

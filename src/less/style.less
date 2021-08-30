@@ -9,6 +9,8 @@
 @fonts: 'Roboto',sans-serif;
 
 .header{
+    background: url(../img/bg.png) center center no-repeat;
+    background-size: cover;
     &__menu{
         display: inline-block;
         margin-top: 40px;
@@ -40,12 +42,21 @@
             font-size: 30px;
             text-decoration: none;
             text-align: center;
+            color: #fff;
+            &:hover{
+                color: black;
+            }
         }
         &-order{
+            margin-top: -8px;
             display: block;
             font-family: @fonts;
             font-size: 12px;
             text-align: center;
+            color: #fff;
+            &:hover{
+                color: black;
+            }
         }
     }
 
