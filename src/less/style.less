@@ -1,0 +1,107 @@
+// * {
+//     box-sizing: border-box;
+// }
+
+// Переменные
+
+@color-gray: #646363;
+@color-blue: #0047FF;
+@fonts: 'Roboto',sans-serif;
+
+.header{
+    &__menu{
+        display: inline-block;
+        margin-top: 40px;
+        padding: 0;
+        li{
+            display: inline-block;
+            margin-left: 50px;
+            &:nth-child(1){
+                margin-left: 0;
+            }
+        }
+        &-item{
+            text-decoration: none;
+            font-family: @fonts;
+            color: @color-gray;
+            font-size: 14px;
+            font-weight: 500;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+
+    &__bell{
+        &-phone{
+            display: block;
+            margin-top: 30px;
+            font-family: @fonts;
+            font-size: 30px;
+            text-decoration: none;
+            text-align: center;
+        }
+        &-order{
+            display: block;
+            font-family: @fonts;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    &__logo{
+        margin-top: 50px;
+        &-img{
+            display: inline-block;
+        }
+        &-title{
+            margin-left: 5px;
+            display: inline-block;
+            font-size: 17px;
+            font-weight: bold;
+            font-family: @fonts;
+            color: @color-blue;
+            border-right: 2px solid @color-blue;
+            padding-right: 5px;
+        }
+        &-descr{
+            display: inline-block;
+            vertical-align: top;
+            font-size: 10px;
+            color: @color-blue;
+        }
+    }
+
+   &__option{
+       margin-top: 50px;
+       &-img{
+           display: inline-block;
+       }
+       &-title{
+           display: inline-block;
+           vertical-align: top;
+           width: 230px;
+           font-size: 10px;
+       }
+   }
+
+}
+
+.title{
+    margin-top: 100px;
+    font-family: @fonts;
+    &-blue{
+        color: @color-blue;
+    }
+}
+
+.button{
+    margin-top: 50px;
+    width: 230px;
+    height: 60px;
+    border: none;
+    background-color: @color-blue;
+    border-radius: 20px;
+    color: #fff;
+    font-family: @fonts;
+}
