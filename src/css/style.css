@@ -98,6 +98,81 @@
   color: #fff;
   font-family: 'Roboto', sans-serif;
 }
+.modals {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modals-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  border-radius: 50px;
+  height: 380px;
+  text-align: center;
+}
+.modals-content__title {
+  margin-top: 30px;
+  color: #0047ff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.modals-content__input {
+  padding-left: 15px;
+  margin-top: 20px;
+  width: 250px;
+  height: 40px;
+  font-size: 12px;
+  color: #646363;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #646363;
+  border-radius: 20px;
+}
+.modals-content__input:hover {
+  border: none;
+}
+.modals-content__buttons {
+  margin-top: 20px;
+  background-color: #0047ff;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.close {
+  position: absolute;
+  top: -25px;
+  right: -5px;
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-size: bold;
+}
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 @media (max-width: 1024px) {
   .header__bell-phone {
     font-size: 15px;

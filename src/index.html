@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wolt видеонаблюдения</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
@@ -13,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-8 col-md-8 col-sm-12">
-                    <ul class="header__menu">
+                    <ul class="header__menu animate__animated animate__fadeInDown">
                         <li><a href="#" class="header__menu-item">Установка</a></li>
                         <li><a href="#" class="header__menu-item">Продажа</a></li>
                         <li><a href="#" class="header__menu-item">Обслуживание</a></li>
@@ -21,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="offset-xl-2 col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                    <div class="header__bell">
+                    <div class="header__bell animate__animated animate__fadeInRight">
                         <a href="#" class="header__bell-phone">8 (701) 300 - 12- 34</a>
                         <a href="#" class="header__bell-order">Закажите звонок</a>
                     </div>
@@ -30,7 +31,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="header__logo">
+                    <div class="header__logo animate__animated animate__fadeInLeftBig">
                         <div class="header__logo-img">
                             <img src="img/header/logo.png" alt="логотип">
                         </div>
@@ -43,12 +44,12 @@
                 </div>
             </div>
 
-            <div class="title">
+            <div class="title animate__animated animate__fadeInLeftBig">
                 <h1>ПОДКЛЮЧИТЕ <span class="title-blue"> УДАЛЕННЫЙ <br>
                     ВИДЕОКОНТРОЛЬ  </span> ОТ 25 000 ТГ</h1>
             </div>
 
-            <button class="button">
+            <button class="button animate__animated animate__fadeInLeftBig" id="myButton">
                 <img src="img/header/button-icons.png" alt="button">
                 ПОДКЛЮЧИТЬ
             </button>
@@ -108,6 +109,30 @@
     </header>
 
 
+
+
+
+    <!-- Модальое окно -->
+    <div class="modals" id="myModals">
+        <div class="container">
+            <div class="modals-content">
+                <span class="close">&times</span>
+                <h3 class="modals-content__title">Подать заявку</h3>
+                <div class="modals-content__forms">
+                    <form action="">
+                        <input type="text" class="modals-content__input" placeholder="Введите имя">
+                        <input type="text" class="modals-content__input" placeholder="Введите свой e-mail">
+                        <input type="text" class="modals-content__input" placeholder="Введите свой номер телефона">
+                        <input type="submit" class="modals-content__buttons" placeholder="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
