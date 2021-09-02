@@ -244,3 +244,15 @@
     font-size: 20px;
   }
 }
+.thank-you {
+  margin-top: 20px;
+}
+.thank-you__title {
+  font-size: 20px;
+  color: #0047ff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.thank-you__link {
+  text-align: center;
+}
