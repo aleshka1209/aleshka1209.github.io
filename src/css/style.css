@@ -1,3 +1,14 @@
+.title__camera {
+  color: #0047ff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.distr {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
 .header {
   background: url(../img/bg.png) center center no-repeat;
   background-size: cover;
@@ -98,6 +109,11 @@
   color: #fff;
   font-family: 'Roboto', sans-serif;
 }
+.button_camera {
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
 .modals {
   display: none;
   position: fixed;
@@ -141,7 +157,12 @@
   border-radius: 20px;
 }
 .modals-content__input:hover {
-  border: none;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid rgba(25, 70, 153, 0.4);
+}
+.modals-content__input:focus {
+  outline: none;
 }
 .modals-content__buttons {
   margin-top: 20px;
@@ -153,6 +174,9 @@
   color: #fff;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+}
+.modals-content__message {
+  color: red;
 }
 .close {
   position: absolute;
@@ -172,6 +196,37 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+.camera {
+  padding: 100px 0;
+}
+.camera__block {
+  padding: 20px 0;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  width: 300px;
+  height: 410px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.camera__block-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.camera__block-img img {
+  width: 100%;
+}
+.camera__block-content__title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.camera__block-content__price {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 @media (max-width: 1024px) {
   .header__bell-phone {
@@ -242,6 +297,9 @@
   }
   .title h1 {
     font-size: 20px;
+  }
+  .camera__block {
+    margin-top: 20px;
   }
 }
 .thank-you {

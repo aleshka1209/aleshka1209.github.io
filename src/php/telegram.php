@@ -4,8 +4,8 @@
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
 $name = $_POST['user_name'];
-$phone = $_POST['user_phone'];
 $email = $_POST['user_email'];
+$phone = $_POST['user_phone'];
 $token = "1952903996:AAHZ6oMg29faSiR27KQNl_r6Of4JwpWd-ao";
 $chat_id = "-1001566220575";
 $arr = array(
@@ -13,6 +13,7 @@ $arr = array(
   'Телефон: ' => $phone,
   'Email' => $email
 );
+
 
 foreach($arr as $key => $value) {
   $txt .= "<b>".$key."</b> ".$value."%0A";
