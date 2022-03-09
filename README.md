@@ -1,6 +1,5 @@
 # Alisher develepor
-
-Мое обучения
+# Мое обучения и обновления собственных приложений и сайтов 
 
 [wolt видеонаблюдения](https://aleshka1209.github.io/src/index.html)
 
