@@ -1,6 +1,6 @@
 # Alisher develepor
 
-# my repositoty sait
+Мое обучения
 
 [wolt видеонаблюдения](https://aleshka1209.github.io/src/index.html)
 
