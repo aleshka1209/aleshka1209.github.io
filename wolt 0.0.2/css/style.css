@@ -187,11 +187,12 @@ a{
 }
 .work__column{
     display: flex;
-    margin: 50px auto;
+    padding: 60px 0 0 0;
 }
 .work__block{
-    flex: 0 1 33.333%;
+    /* flex: 0 1 33.333%; */
     margin: 0 20px;
+    padding: 50px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
@@ -452,7 +453,7 @@ a{
         margin: 0 0 0 10px;
     }
 }
-@media(max-width:378px){
+@media(max-width:390px){
     .menu__item{
         font-size: 12px;
     }
