@@ -61,7 +61,7 @@ a{
 .header{
     position: relative;
     z-index: 100;
-    background: url('/../img/header/bg.jpg') no-repeat center;
+    background: url('../img/header/bg.jpg') no-repeat center;
 }
 
 .header__menu{
@@ -423,6 +423,16 @@ a{
         margin:0;
     }
 }
+@media(max-width:768px){
+    .order__wrap{
+        padding: 30px 100px; 
+    }
+    .order__forms{
+        padding: 30px 30px;
+    }
+}
+
+
 @media(max-width:550px){
     .header__menu ul li{
         /* display: inline-block; */
