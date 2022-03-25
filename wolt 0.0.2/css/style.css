@@ -16,6 +16,7 @@ a{
     color: #000;
     font-family: 'Montserrat',sans-serif ;
 }
+
 .wrapper{
     overflow: hidden;
 }
@@ -468,7 +469,7 @@ a{
 /* burger menu */
 
 @media(max-width: 800px){
-    body.lock{
+    .lock{
         overflow: hidden;
     }
     .burger-menu{
