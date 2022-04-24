@@ -7,6 +7,6 @@
 
 [wolt version 0.0.2](https://aleshka1209.github.io/wolt%200.0.2/index.html)
 
-[it-spk.kz](https://aleshka1209.github.io/it-spk/index.html)
+[it-spk.kz](https://aleshka1209.github.io/it-source/index.html)
 
 
