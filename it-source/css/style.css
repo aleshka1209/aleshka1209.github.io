@@ -162,7 +162,7 @@ body{
         padding: 20px 0 0 0;
     }
     .popup__phone p a{
-        color: darkblue;
+        color: #002047;
         text-decoration: none;
         font-size: 20px;
         font-weight: 700;
@@ -175,10 +175,10 @@ body{
         text-align: center;
     }
     .popup-list__item a{
-        color: darkblue;
+        color: #002047;
         text-decoration: none;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 22px;
     }
     .popup__button{
         text-align: center;
