@@ -63,7 +63,7 @@ body{
 .mode{
     font-size: 22px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
 }
 .header__block{
     margin-top: 35px;
@@ -78,8 +78,8 @@ body{
     text-decoration: none;
     color: #002047;
     width: 210px;
-    padding: 15px 0 15px 20px;
     font-weight: 700;
+    padding: 15px 0 15px 20px;
 }
 .header__button a img{
     position: absolute;
@@ -108,7 +108,7 @@ body{
     justify-content: space-between;
     align-items: top;
 }
-.main__title{
+.title{
     font-size: 50px;
     font-weight: 700;
 }
@@ -116,6 +116,48 @@ body{
     max-width: 802px;
     line-height: 25px;
 }
+
+.main__services{
+    padding: 0 0 50px 0;
+}
+.main__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main__item{
+    display: flex;
+    align-items: center;
+    width: 33%;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 70px 0 0 0;
+}
+.main__item p{
+    padding: 0 0 0 39px;
+}
+
+.main__offer{
+    padding: 30px 0 50px 0;
+}
+.offer__title{
+    font-size: 24px;
+    padding: 30px 0 0 0;
+}
+.offer__block{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: wrap;
+}
+.offer__item{
+    font-size: 18px;
+    line-height: 24px;
+    width: 48.999%;
+}
+
 
 @media(max-width: 768px){
     .main__about{
@@ -125,6 +167,9 @@ body{
     }
     .main__title{
         margin-bottom: 20px;
+    }
+    .main__item p{
+        padding: 0 0 0 10px;
     }
 }
 
@@ -223,4 +268,30 @@ body{
 /* ============================= header end =============================================== */
 
 /* ============================= main begin =============================================== */
+    .main__block{
+        display: flex;
+    }
+    .main__item{
+        width: 50%;
+    }
+}
+@media(max-width: 425px){
+    .main__block{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0 0 0;
+    }
+    .main__item{
+        width: 100%;
+        padding: 30px 0 0 0;
+    }
+    .offer__block{
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .offer__item{
+        padding: 20px 0 0 0;
+        width: 100%;
+    }
 }
