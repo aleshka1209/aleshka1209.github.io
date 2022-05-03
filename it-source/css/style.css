@@ -49,6 +49,14 @@ body{
     color: #00FEFF;
     font-size: 46px;
     line-height: 50px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.header__title._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 .header__discr{
     font-weight: 900;
